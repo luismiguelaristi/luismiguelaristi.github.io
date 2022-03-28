@@ -1,0 +1,177 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+220328_Diagrama_HardwareSoftware_Detallado_IMPRIMIR
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 43;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 3.185207;
+	viewMgr.visBBoxRight = 19.202445;
+	viewMgr.visBBoxBottom = 1.306390;
+	viewMgr.visBBoxTop = 12.658465;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Muestra la ubicación de la forma seleccionada" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = 'Para habilitar toda la funcionalidad como Panorámica y zoom, <a href="https://www.microsoft.com/silverlight/resources/install.aspx" target="parent">haga clic aquí</a> para instalar el complemento Silverlight.';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_23.png" ALT="Fw_DevFrame" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Command diag." origTitle="details on Command diag." TITLE="details on Command diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Command/Command.svg" target="_top" COORDS="292,500,292,509,292,509,476,509,476,500,386,500,386,499,292,499,292,500" onmouseover="UpdateTooltip(this,43,1197,event)" onfocus="UpdateTooltip(this,43,1197,event)" onclick="return OnShapeClick(43,1197,event);" onkeyup="OnShapeKey(43,1197,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Command diag." origTitle="details on Command diag." TITLE="details on Command diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Command/Command.svg" target="_top" COORDS="292,423,292,432,292,432,476,432,476,423,386,423,386,422,292,422,292,423" onmouseover="UpdateTooltip(this,43,1190,event)" onfocus="UpdateTooltip(this,43,1190,event)" onclick="return OnShapeClick(43,1190,event);" onkeyup="OnShapeKey(43,1190,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Data diag." origTitle="details on Data diag." TITLE="details on Data diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Data/Data.svg" target="_top" COORDS="862,423,862,432,862,432,1022,432,1022,423,936,423,936,422,862,422,862,423" onmouseover="UpdateTooltip(this,43,1143,event)" onfocus="UpdateTooltip(this,43,1143,event)" onclick="return OnShapeClick(43,1143,event);" onkeyup="OnShapeKey(43,1143,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Data diag." origTitle="details on Data diag." TITLE="details on Data diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Data/Data.svg" target="_top" COORDS="757,423,757,432,757,432,917,432,917,423,831,423,831,422,757,422,757,423" onmouseover="UpdateTooltip(this,43,1135,event)" onfocus="UpdateTooltip(this,43,1135,event)" onclick="return OnShapeClick(43,1135,event);" onkeyup="OnShapeKey(43,1135,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Data diag." origTitle="details on Data diag." TITLE="details on Data diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Data/Data.svg" target="_top" COORDS="862,325,862,333,862,334,1022,334,1022,325,936,325,936,324,862,324,862,325" onmouseover="UpdateTooltip(this,43,1128,event)" onfocus="UpdateTooltip(this,43,1128,event)" onclick="return OnShapeClick(43,1128,event);" onkeyup="OnShapeKey(43,1128,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Data diag." origTitle="details on Data diag." TITLE="details on Data diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Data/Data.svg" target="_top" COORDS="757,325,757,333,757,334,917,334,917,325,831,325,831,324,757,324,757,325" onmouseover="UpdateTooltip(this,43,1121,event)" onfocus="UpdateTooltip(this,43,1121,event)" onclick="return OnShapeClick(43,1121,event);" onkeyup="OnShapeKey(43,1121,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Support diag." origTitle="details on Support diag." TITLE="details on Support diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Support/Support.svg" target="_top" COORDS="480,423,480,432,480,432,664,432,664,423,566,423,566,422,480,422,480,423" onmouseover="UpdateTooltip(this,43,1114,event)" onfocus="UpdateTooltip(this,43,1114,event)" onclick="return OnShapeClick(43,1114,event);" onkeyup="OnShapeKey(43,1114,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Support diag." origTitle="details on Support diag." TITLE="details on Support diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Support/Support.svg" target="_top" COORDS="599,325,599,333,599,334,782,334,782,325,684,325,684,324,599,324,599,325" onmouseover="UpdateTooltip(this,43,1106,event)" onfocus="UpdateTooltip(this,43,1106,event)" onclick="return OnShapeClick(43,1106,event);" onkeyup="OnShapeKey(43,1106,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Support diag." origTitle="details on Support diag." TITLE="details on Support diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Support/Support.svg" target="_top" COORDS="480,325,480,333,480,334,664,334,664,325,566,325,566,324,480,324,480,325" onmouseover="UpdateTooltip(this,43,1099,event)" onfocus="UpdateTooltip(this,43,1099,event)" onclick="return OnShapeClick(43,1099,event);" onkeyup="OnShapeKey(43,1099,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Click for detail" origTitle="Click for detail" TITLE="Click for detail" HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="520,223,520,231,520,232,642,232,642,223,571,223,571,222,520,222,520,223" onmouseover="UpdateTooltip(this,43,1092,event)" onfocus="UpdateTooltip(this,43,1092,event)" onclick="return OnShapeClick(43,1092,event);" onkeyup="OnShapeKey(43,1092,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="209,223,209,231,209,232,392,232,392,223,294,223,294,222,209,222,209,223" onmouseover="UpdateTooltip(this,43,1084,event)" onfocus="UpdateTooltip(this,43,1084,event)" onclick="return OnShapeClick(43,1084,event);" onkeyup="OnShapeKey(43,1084,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="365,223,365,231,365,232,548,232,548,223,449,223,449,222,365,222,365,223" onmouseover="UpdateTooltip(this,43,1077,event)" onfocus="UpdateTooltip(this,43,1077,event)" onclick="return OnShapeClick(43,1077,event);" onkeyup="OnShapeKey(43,1077,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="43,223,43,231,43,232,226,232,226,223,128,223,128,222,43,222,43,223" onmouseover="UpdateTooltip(this,43,1070,event)" onfocus="UpdateTooltip(this,43,1070,event)" onclick="return OnShapeClick(43,1070,event);" onkeyup="OnShapeKey(43,1070,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="43,423,43,432,43,432,226,432,226,423,128,423,128,422,43,422,43,423" onmouseover="UpdateTooltip(this,43,1063,event)" onfocus="UpdateTooltip(this,43,1063,event)" onclick="return OnShapeClick(43,1063,event);" onkeyup="OnShapeKey(43,1063,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="43,325,43,333,43,334,226,334,226,325,128,325,128,324,43,324,43,325" onmouseover="UpdateTooltip(this,43,1056,event)" onfocus="UpdateTooltip(this,43,1056,event)" onclick="return OnShapeClick(43,1056,event);" onkeyup="OnShapeKey(43,1056,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Support/Support.svg" target="_top" COORDS="887,223,887,231,887,232,1024,232,971,223,971,222,887,222,887,223" onmouseover="UpdateTooltip(this,43,1049,event)" onfocus="UpdateTooltip(this,43,1049,event)" onclick="return OnShapeClick(43,1049,event);" onkeyup="OnShapeKey(43,1049,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="655,223,655,231,655,232,839,232,839,223,740,223,740,222,655,222,655,223" onmouseover="UpdateTooltip(this,43,1042,event)" onfocus="UpdateTooltip(this,43,1042,event)" onclick="return OnShapeClick(43,1042,event);" onkeyup="OnShapeKey(43,1042,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="details on Devices diag." origTitle="details on Devices diag." TITLE="details on Devices diag." HREF="https://upbeduco.sharepoint.com/sites/Pionero500/Shared%20Documents/General/07_Gestion/Informes/Devices/Devices.svg" target="_top" COORDS="771,223,771,231,771,232,954,232,954,223,856,223,856,222,771,222,771,223" onmouseover="UpdateTooltip(this,43,1035,event)" onfocus="UpdateTooltip(this,43,1035,event)" onclick="return OnShapeClick(43,1035,event);" onkeyup="OnShapeKey(43,1035,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>
